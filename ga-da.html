@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/small_icon.jpg">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>W388 - W388 CASINO TẶNG 100K TRẢI NGHIỆM - W388</title>
+
+</head>
+
+<body>
+    <header id="navbar" class=" header w-full sticky top-0 left-0 z-50 duration-500">
+        <div class="bg-orange-800 opacity-100">
+            <div class="max-w-6xl m-auto px-2 py-1.5">
+                <div class="flex items-center justify-center md:justify-between  relative ">
+                    <!-- open nav -->
+                    <div class="menu-icon absolute left-0 md:hidden text-2xl mt-2 text-gray-100  " onclick="OpenNav()">
+                        <ion-icon name="menu-outline" class="text-gray-100 w-7 h-7 p-0.5 rounded-md "></ion-icon>
+                    </div>
+                    <!-- logo -->
+                    <div class="logo flex items-center cursor-pointer">
+                        <a href="index.html"><img src="./images/logo.png" class="max-w-[160px] "></a>
+                        <div class="hidden md:block ml-10">
+                            <div class="flex justify-center items-center border rounded-3xl bg-gray-600 opacity-30 ">
+                                <input type="search"
+                                    class="p-1.5  w-auto focus:ring focus:border-blue-500 font-normal bg-gray-100 border-none bg-transparent text-white focus:outline-none "
+                                    placeholder="Search..." required />
+                                <button class=" text-white py-2 px-3 focus:outline-none">
+                                    <ion-icon name="search" class="text-2xl flex text-black items-center"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu -->
+                    <nav id="Nav"
+                        class="z-40 fixed top-0 left-0 w-0 md:w-auto h-full overflow-x-hidden md:relative md:h-auto duration-300  ">
+                        <div
+                            class="md:hidden flex justify-end text-3xl  p-2 font-bold w-full h-full bg-gray-600 opacity-80 ">
+                            <ion-icon onclick="CloseNav()" name="close"></ion-icon>
+                        </div>
+                        <div
+                            class="h-full opacity-100 w-[250px] md:relative absolute top-0 flex flex-col  md:bg-transparent  bg-white">
+                            <!-- search -->
+                            <div class="mt-10 md:hidden p-4 border-b ">
+                                <div class="flex justify-center items-center border rounded-3xl ">
+                                    <input type="search"
+                                        class="p-1.5 focus:outline-none focus:border-white w-28  font-normal bg-gray-100 border-none bg-transparent text-gray-800"
+                                        placeholder="Search..." required />
+                                    <button class=" text-white py-2 px-3 ">
+                                        <ion-icon name="search"
+                                            class="text-2xl flex text-black items-center"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- menu item -->
+                            <div class="md:hidden">
+                                <ul
+                                    class="flex flex-wrap justify-center flex-col text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-black *:cursor-pointer  bg-opacity-100">
+                                    <li><a href="/index.html" class="hover:text-amber-400 hover:no-underline">TRANG
+                                            CHỦ</a></li>
+                                    <li><a href="/live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE
+                                            CASINO</a></li>
+                                    <li><a href="/game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME
+                                            BÀI</a></li>
+                                    <li><a href="ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a>
+                                    </li>
+                                    <li><a href="ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a>
+                                    </li>
+                                    <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ
+                                            THAO</a></li>
+                                    <li><a href="Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a>
+                                    </li>
+                                    <li><a href="tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN
+                                            TỨC</a></li>
+                                </ul>
+
+                            </div>
+                            <div
+                                class="text-white bg-orange-800   *:w-28  gap-5 py-2 justify-center items-center hidden md:block text-[15px] *:py-1.5 *:rounded *:shadow *:border-2 *:border-gray-600  *:duration-300">
+                                <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng
+                                    Ký</button>
+                                <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng
+                                    Nhập</button>
+                            </div>
+                            <div class="md:hidden">
+                                <div class="flex flex-col justify-center items-center mt-4">
+                                    <div class="p-2">
+                                        <h2 class=" text-gray-400">WooCommerce not Found</h2>
+                                    </div>
+                                    <div class="p-2 ">
+                                        <a href="" class="tracking-wide text-gray-400 hover:none-underline"><i
+                                                class="fa-regular fa-envelope"></i>NEWSLETTER
+                                        </a>
+                                    </div>
+                                    <div class="flex *:p-2">
+                                        <span class=" text-gray-400"><i class="fa-brands fa-facebook-f "></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-instagram"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-twitter"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-regular fa-envelope"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation screen -->
+        <div class="hidden md:block justify-center items-centerw-full py-2 bg-orange-950 ">
+            <ul
+                class="flex flex-wrap font-semibold justify-center  text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-white *:cursor-pointer">
+                <li><a href="/index.html" class="hover:text-amber-400 hover:no-underline">TRANG CHỦ</a></li>
+                <li><a href="/live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE CASINO</a></li>
+                <li><a href="/game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME BÀI</a></li>
+                <li><a href="ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a></li>
+                <li><a href="ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a></li>
+                <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ THAO</a></li>
+                <li><a href="Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a></li>
+                <li><a href="tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN TỨC</a></li>
+            </ul>
+           
+
+        </div>
+        <div
+        class="md:hidden text-white bg-gray-800 *:w-24 flex gap-2 py-1 justify-center items-center text-[15px] *:py-1 *:rounded *:shadow *:border-2 *:border-gray-500  *:duration-300">
+        <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng Ký</button>
+        <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng Nhập</button>
+    </div>
+    </header>
+    <main id="main" class="">
+
+        <div class="items-center justify-center flex flex-col container">
+            <div class=" max-w-[1280px] w-full mb-20">
+                <div class="text-[18px]">
+                    <header class="mt-10">
+                        <div class="">
+                            <div class="text-xl font-semibold text-center col">
+                                <h1 class="text-[16px] uppercase">
+                                    Category Archives: <span>ĐÁ GÀ</span> </h1>
+                            </div>
+                        </div>
+                    </header>
+
+
+                    <div class="flex flex-col justify-center">
+
+                        <div class="">
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class="text-[12px]"><a href=""
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">ĐÁ GÀ</a></h6>
+                                    <h2 class="mt-6 "><a href=""
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline">Gà Điều Màu Gì? Thuộc Mạng Gì? Cách Nhận Biết Gà Đá Hay</a></h2>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href=""
+                                                rel="bookmark"
+                                                class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500">Tháng Mười Một 3,
+                                                    2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="">
+                                            <img width="800" height="400"
+                                                src="/images/ga-dieu-bong.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">03</p>
+                                                <p class="text-[12px]">Th11</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="text-[16px]">
+                                        <p>Gà điều là một trong những màu lông gà phổ biến nhất hiện nay. Theo thống kê, chúng chiếm khoảng từ 50% – 60% màu lông gà. Thông thường gà điều mang gam màu đỏ đặc trưng nên được rất nhiều sư kê yêu thích chọn lựa. Với nhiều câu hỏi như dòng gà này […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 text-[12px] p-2 font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="">Continue reading <span
+                                                    class="meta-nav">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">ĐÁ GÀ</a> </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class=""><a href=""
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">ĐÁ GÀ</a></h6>
+                                    <h2 class="mt-6"><a href=""
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline hover:text-gray-500">Màu Mạng Gà Đá Là Gì Và Có Những Loại Màu Mạng Gà Nào?
+                                        </a></h2>
+                                    <div class="line"></div>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href=""
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500">Tháng Mười Một 3,
+                                                    2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="">
+                                            <img width="800" height="400"
+                                                src="/images/tim-hieu-ve-khai-niem-mau-mang-ga-da.jpg" class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">03</p>
+                                                <p class="text-[12px]">Th11</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="">
+                                        <p class="text-[16px]">Màu mạng gà đá đóng vai trò quan trọng trong phong thủy và nó ảnh hưởng đến khả năng chiến đấu của gà chọi. Điều này cần được sư kê và người nuôi gà hiểu rõ để lựa chọn, nuôi dưỡng và đào tạo gà đá một cách hiệu quả. Bài viết sau đây w388 […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 p-2 text-[12px] font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="">Continue reading <span
+                                                    class="">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">ĐÁ GÀ</a> </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class=""><a href=""
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-500">ĐÁ GÀ</a></h6>
+                                    <h2 class="mt-6"><a href=""
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline hover:text-gray-500">Gà Nòi Là Gì? Đặc Điểm Cơ Bản Và Cách Chọn Giống Chất Lượng
+                                        </a></h2>
+                                    <div class=""></div>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href=""
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500 hover:no-underline hover:text-gray-500">Tháng
+                                                    Mười Một 2,
+                                                    2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="">
+                                            <img width="800" height="400"
+                                                src="/images/ga-noi-la-gi-khai-niem.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">02</p>
+                                                <p class="text-[12px]">Th11</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="">
+                                        <p class="text-[16px]">Gà nòi là gì và có đặc điểm cơ bản nhận diện như thế nào? Cách thức lựa chọn giống tốt dựa vào những tiêu chí nào luôn là vấn đề được nhiều sư kê quan tâm đến. Cùng nhà cái W388 tìm hiểu về những thông tin liên quan đến chiến kê này nhé! […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 p-2 text-[12px] font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="">Continue reading <span
+                                                    class="">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">BẮN CÁ</a> </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class=""><a href=""
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-500">ĐÁ GÀ</a></h6>
+                                    <h2 class="mt-6"><a href=""
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline hover:text-gray-500">Gà Asil Là Gì? Cách Nhận Diện Giống Thần Kê Asil Dũng Mãnh
+                                        </a></h2>
+                                    <div class=""></div>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href=""
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500 hover:no-underline hover:text-gray-500">Tháng
+                                                    Mười Một 2,
+                                                    2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="">
+                                            <img width="800" height="400"
+                                                src="/images/ga-asil-la-gi-suc-thi-dau-cua-giong-ke-chien-asil-tren-san-dau.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">02</p>
+                                                <p class="text-[12px]">Th11</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="">
+                                        <p class="text-[16px]">Gà Asil là gì và giống kê thủ này có đặc điểm nhận diện ra sao bạn đã biết chưa? Cùng chúng tôi tìm hiểu chi tiết hơn về giống Asil trong bài viết sau! Gà Asil Là Gì? Cách Nhận Diện Giống Thần Kê Asil Dũng Mãnh Gà Asil là gì? Đây vẫn là […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 p-2 text-[12px] font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="">Continue reading <span
+                                                    class="">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">BẮN CÁ</a> </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class=""><a href=""
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-500">ĐÁ GÀ</a></h6>
+                                    <h2 class="mt-6"><a href=""
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline hover:text-gray-500">Đá Gà Thomo – Dòng Game Cá Cược Trực Tuyến Thú Vị Nhất
+                                        </a></h2>
+                                    <div class=""></div>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href=""
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500 hover:no-underline hover:text-gray-500">Tháng
+                                                    Mười Một 19,
+                                                    2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="">
+                                            <img width="800" height="400"
+                                                src="/images/Artboard 10.png"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">19</p>
+                                                <p class="text-[12px]">Th10</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="">
+                                        <p class="text-[16px]">Đá gà qua mạng đã trở thành một trong những bộ môn giải trí ưa chuộng của nhiều cược thủ. Đặc biệt nhất phải kể đến đá gà Thomo, với hàng loạt trận đấu đỉnh cao. Tuy nhiên một vài anh em lại chưa biết lựa chọn nơi đâu làm địa chỉ tham gia. Nếu […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 p-2 text-[12px] font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="">Continue reading <span
+                                                    class="">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">BẮN CÁ</a> </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </main>
+    <footer class="bg-gray-900 mt-10">
+        <div class="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div>
+                    <div class="flex justify-center text-teal-300 sm:justify-start">
+                        <img src="./images//logo.png" alt="">
+                    </div>
+
+                    <p
+                        class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
+                        W388 - Nhà cái hoạt động gần 10 năm trên thị trường với sự cấp phép của Philipines. Sân chơi
+                        được chứng nhận GEOTRUST, cam kết xanh chín với hội viên
+                    </p>
+                    <img src="./images//_dmca_premi_badge_4.png" alt="" class="ml-10 mt-4">
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4">
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">HƯỚNG DẪN</p>
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./dang-key.html">
+                                        Đăng ký
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Đăng-nhập.html">
+                                        Đăng nhập
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Nạp-tiền.html">
+                                        Nạp tiền
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Rút-tiền.html">
+                                        Rút tiền
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Khuyến-mãi.html">
+                                        Khuyến mãi
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">LIÊN HỆ</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./ve-chung-toi.html">
+                                        Về chúng tôi
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./lien-he.html">
+                                        Liên hệ
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./binh-ming-ceo-manager.html">
+                                        CEO Bình Minh
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./chinh-sach-bao-mat.html">
+                                        Chính sách bảo mật
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./dieu-khoan-va-dieu-kien.html">
+                                        Điều khoản và điều kiện
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./mien-trach-nhiem.html">
+                                        Miễn trách nhiệm
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg font-medium text-center text-white">KIẾN THỨC</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./live-casino.html">
+                                        Live casino
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./game-ba.html">
+                                        Game bài
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ban-ca.html">
+                                        Bắn cá
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ga-da.html">
+                                        Đá gà
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./the-thao.html">
+                                        Thể thao
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Xo-So.html">
+                                        Xổ số
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">THÔNG TIN LIÊN LẠC</p>
+
+                        <ul class="mt-8 space-y-4 text-sm *:p-1">
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Website: w388.dog
+                                </span>
+
+                            </li>
+
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Địa chỉ: Đ.TH67, Binh Hoà, An Hòa, Bình Dương, Việt Nam
+                                </span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 ">
+                <img src="./images//logo-okvip-1400x495.png" alt="" class="w-[170px]">
+            </div>
+            <div class="pt-6 mt-12 border-t border-gray-800">
+                <div class="text-center sm:flex sm:justify-between sm:text-left">
+                    <p class="text-sm text-gray-400">
+                        <span class="block sm:inline">Copyright 2024 © Flatsome Theme</span>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a id="button"></a>
+    <script src="index.js"></script>
+</body>
+
+</html>

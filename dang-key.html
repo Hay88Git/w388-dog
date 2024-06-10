@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/small_icon.jpg">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>W388 - W388 CASINO TẶNG 100K TRẢI NGHIỆM - W388</title>
+</head>
+
+<body>
+    <header id="navbar" class=" header w-full sticky top-0 left-0 z-50 duration-500">
+        <div class="bg-orange-800 opacity-100">
+            <div class="max-w-6xl m-auto px-2 py-1.5">
+                <div class="flex items-center justify-center md:justify-between  relative ">
+                    <!-- open nav -->
+                    <div class="menu-icon absolute left-0 md:hidden text-2xl mt-2 text-gray-100  " onclick="OpenNav()">
+                        <ion-icon name="menu-outline" class="text-gray-100 w-7 h-7 p-0.5 rounded-md "></ion-icon>
+                    </div>
+                    <!-- logo -->
+                    <div class="logo flex items-center cursor-pointer">
+                        <a href="index.html"><img src="./images/logo.png" class="max-w-[160px] "></a>
+                        <div class="hidden md:block ml-10">
+                            <div class="flex justify-center items-center border rounded-3xl bg-gray-600 opacity-30 ">
+                                <input type="search"
+                                    class="p-1.5  w-auto focus:ring focus:border-blue-500 font-normal bg-gray-100 border-none bg-transparent text-white focus:outline-none "
+                                    placeholder="Search..." required />
+                                <button class=" text-white py-2 px-3 focus:outline-none">
+                                    <ion-icon name="search" class="text-2xl flex text-black items-center"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu -->
+                    <nav id="Nav"
+                        class="z-40 fixed top-0 left-0 w-0 md:w-auto h-full overflow-x-hidden md:relative md:h-auto duration-300  ">
+                        <div
+                            class="md:hidden flex justify-end text-3xl  p-2 font-bold w-full h-full bg-gray-600 opacity-80 ">
+                            <ion-icon onclick="CloseNav()" name="close"></ion-icon>
+                        </div>
+                        <div
+                            class="h-full opacity-100 w-[250px] md:relative absolute top-0 flex flex-col  md:bg-transparent  bg-white">
+                            <!-- search -->
+                            <div class="mt-10 md:hidden p-4 border-b ">
+                                <div class="flex justify-center items-center border rounded-3xl ">
+                                    <input type="search"
+                                        class="p-1.5 focus:outline-none focus:border-white w-28  font-normal bg-gray-100 border-none bg-transparent text-gray-800"
+                                        placeholder="Search..." required />
+                                    <button class=" text-white py-2 px-3 ">
+                                        <ion-icon name="search"
+                                            class="text-2xl flex text-black items-center"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- menu item -->
+                            <div class="md:hidden">
+                                <ul
+                                    class="flex flex-wrap justify-center flex-col text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-black *:cursor-pointer  bg-opacity-100">
+                                    <li><a href="/index.html" class="hover:text-amber-400 hover:no-underline">TRANG
+                                            CHỦ</a></li>
+                                    <li><a href="/live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE
+                                            CASINO</a></li>
+                                    <li><a href="/game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME
+                                            BÀI</a></li>
+                                    <li><a href="ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a>
+                                    </li>
+                                    <li><a href="ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a>
+                                    </li>
+                                    <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ
+                                            THAO</a></li>
+                                    <li><a href="Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a>
+                                    </li>
+                                    <li><a href="tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN
+                                            TỨC</a></li>
+                                </ul>
+
+                            </div>
+                            <div
+                                class="text-white bg-orange-800   *:w-28  gap-5 py-2 justify-center items-center hidden md:block text-[15px] *:py-1.5 *:rounded *:shadow *:border-2 *:border-gray-600  *:duration-300">
+                                <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng
+                                    Ký</button>
+                                <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng
+                                    Nhập</button>
+                            </div>
+                            <div class="md:hidden">
+                                <div class="flex flex-col justify-center items-center mt-4">
+                                    <div class="p-2">
+                                        <h2 class=" text-gray-400">WooCommerce not Found</h2>
+                                    </div>
+                                    <div class="p-2 ">
+                                        <a href="" class="tracking-wide text-gray-400 hover:none-underline"><i
+                                                class="fa-regular fa-envelope"></i>NEWSLETTER
+                                        </a>
+                                    </div>
+                                    <div class="flex *:p-2">
+                                        <span class=" text-gray-400"><i class="fa-brands fa-facebook-f "></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-instagram"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-twitter"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-regular fa-envelope"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation screen -->
+        <div class="hidden md:block justify-center items-centerw-full py-2 bg-orange-950 ">
+            <ul
+                class="flex flex-wrap font-semibold justify-center  text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-white *:cursor-pointer">
+                <li><a href="/index.html" class="hover:text-amber-400 hover:no-underline">TRANG CHỦ</a></li>
+                <li><a href="/live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE CASINO</a></li>
+                <li><a href="/game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME BÀI</a></li>
+                <li><a href="ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a></li>
+                <li><a href="ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a></li>
+                <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ THAO</a></li>
+                <li><a href="Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a></li>
+                <li><a href="tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN TỨC</a></li>
+            </ul>
+
+
+        </div>
+        <div
+            class="md:hidden text-white bg-gray-800 *:w-24 flex gap-2 py-1 justify-center items-center text-[15px] *:py-1 *:rounded *:shadow *:border-2 *:border-gray-500  *:duration-300">
+            <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng Ký</button>
+            <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng Nhập</button>
+        </div>
+    </header>
+    <div class="bg-red-200 sticky top-0">
+
+
+    </div>
+    <section class="bg-white">
+        <div class="items-center justify-center flex flex-col container">
+            <div class=" max-w-[1280px] w-full ">
+                <div class="text-[18px]">
+
+                    <p class="mt-2"><span>Chẳn hẳn cái tên W388 không còn xa lạ gì trong cộng đồng game thủ. Đã có rất
+                            nhiều cược thủ lão làng kiếm bội tiền trên nền tảng này. Với những anh em đang tìm kiếm một
+                            địa chỉ uy tín để tham gia cá cược và kiếm tiền thưởng thì hãy<a href="index.html"
+                                class="text-red-500"> đăng ký W388</a> ngay để trải nghiệm nhé.</span>
+                    </p>
+                    <h2 class="mt-4 text-xl md:text-2xl font-medium "><b>Cần chuẩn bị những gì để đăng ký W388 nhanh
+                            hơn?</b></h2>
+                    <p class="mt-4">Thực tế, quá trình đăng ký tài khoản trên W388 chỉ mất vài phút. Tuy nhiên, để giúp
+                        tân thủ thực hiện nhanh hơn thì anh em chuẩn bị như sau: </p>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/chuan-bi-khi-dang-ky-w388.jpg">
+                            <i class="wp-caption-text justify-center flex item">Cần chuẩn bị những gì để đăng ký W388
+                                nhanh hơn?
+                            </i>
+                        </figure>
+                    </div>
+
+
+                    <div class="dist mt-4 *:p-2">
+                        <li>Tên tài khoản (để gia nhập vào nhà cái W388 cho các lần sau)</li>
+                        <li>Mật khẩu </li>
+                        <li>Số điện thoại (để xác minh tài khoản và liên hệ với nhà cái khi cần)</li>
+                        <li>Địa chỉ email (để xác minh tài khoản và liên hệ với nhà cái khi cần)</li>
+                    </div>
+
+                    <p class="mt-2">Ngoài ra, người chơi cần đảm bảo rằng có kết nối internet ổn định để tránh bị gián
+                        đoạn trong quá trình đăng ký. Đồng thời, cược thủ cũng nên chuẩn bị sẵn thông tin về các kênh
+                        giao dịch để thuận tiện cho việc điền thông tin nạp và rút tiền sau này.
+                    </p>
+                    <h2 class="mt-4 text-xl md:text-2xl font-medium "><b>Hướng dẫn đăng ký tài khoản W388 trên các thiết
+                            bị</b></h2>
+                    <p class="mt-4 ">Khi bạn đã có những thông tin trên, vậy thì việc tạo tài khoản sẽ chỉ chưa mất đến
+                        3 phút là hoàn tất. Các bước như sau:</p>
+
+                    <h2 class="mt-2 p-2 text-xl "><b>Truy cập địa chỉ chính thức của nhà cái W388</b></h2>
+                    <p class="mt-4 ">Người chơi lưu ý rằng hãy tham gia vào đường link chính thống của sân chơi này để
+                        tránh bị các website khác lừa đảo nhé. Các bạn có thể truy cập vào trang web thông qua các trình
+                        duyệt như Firefox, Google Chrome hay Cốc Cốc,…</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Điền thông tin đăng ký W388</b></h2>
+                    <p class="mt-4 ">Khi trang web nhà cái hiển thị thì các bạn bấm vào nút Đăng ký. Sau đó điền các
+                        thông tin mà bạn đã chuẩn bị sẵn ở bước trên:</p>
+
+                    <div class="dist mt-4 *:p-2">
+                        <li>Tên đăng nhập</li>
+                        <li>Mật khẩu </li>
+                        <li>Nhập lại mật khẩu</li>
+                        <li>Họ và tên</li>
+                        <li>Số điện thoại </li>
+                        <li>Địa chỉ email</li>
+                        <li>Xác minh đăng ký W388dog</li>
+                    </div>
+
+
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/cac-buoc-dang-ky-w388.jpg">
+                            <i class="wp-caption-text justify-center flex item">Cần chuẩn bị những gì để đăng ký W388
+                                nhanh hơn?
+                            </i>
+                        </figure>
+                    </div>
+
+                    <h2 class="mt-2 p-2 text-xl "><b>Kiểm tra thông tin và xác thực</b></h2>
+                    <p class="mt-4 ">Tiếp theo, người chơi hãy kiểm tra mọi thông tin đã điền một lần nữa rồi mới bấm
+                        vào “Đăng ký” để hoàn tất quá trình. Sau đó, các bạn hãy vào phần thông tin cá nhân điền các dữ
+                        liệu của mình như họ và tên, số điện thoại, tài khoản ngân hàng,… để xác thực.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Hoàn thành nạp tiền và cá cược</b></h2>
+                    <p class="mt-4 ">Sau khi đã đăng ký W388 xong, bạn chỉ việc bấm vào phần Nạp tiền ngay trên giao
+                        diện màn hình chính. Tại đây có những phương thức giao dịch tiện lợi cho mọi người thực hiện.
+                        Bạn chỉ việc chọn kênh phù hợp nhất với mình và làm theo hướng dẫn. Sau khi đã có số dư thì bạn
+                        lựa chọn các game tại <a href="index.html"
+                            class="text-red-500 hover:text-black hover:no-underline font-medium"> W388</a> để cá cược
+                        kiếm tiền thưởng nhé!</p>
+                    <p class="mt-4 ">Trong quá trình này, nếu bạn thực hiện lỗi ở các phần như trùng tên đăng nhập, mật khẩu không khớp, sai sót các ký tự trong điện thoại hay email,… thì hệ thốn sẽ báo lỗi. Trường hợp này thì người chơi chỉ việc chỉnh sửa lại các thông tin hiển thị ô màu đỏ. Sau đó thực hiện lại các bước như chúng tôi đã chia sẻ chi tiết ở trên.</p>
+                    <h2 class="mt-4 text-xl md:text-2xl font-medium "><b>Những điểm cần lưu ý khi đăng ký tài khoản W388</b></h2>
+                    <p class="mt-4 ">Khi đăng ký W388, anh em nên chú ý một số điểm sau để đảm bảo an toàn và thành công.</p>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/luu-y-khi-dang-ky-w388.jpg">
+                            <i class="wp-caption-text justify-center flex item">Những điểm cần lưu ý để việc đăng ký W388 thành công nhanh chóng
+                            </i>
+                        </figure>
+                    </div>
+
+                    <div class="dist mt-4 *:p-2">
+                        <li>Người chơi chỉ nên truy cập hoặc tải app nhà cái tại địa chỉ chính thức của W388.</li>
+                        <li>Khi tạo tài khoản, các bạn nên cung cấp thông tin cá nhân chính xác khi đăng ký để tránh khó khăn trong quá trình rút tiền hoặc xác minh tài khoản sau này. </li>
+                        <li>Bạn nên sử dụng mật khẩu mạnh và duy nhất cho tài khoản W388.</li>
+                        <li>Người chơi tránh lưu trữ thông tin đăng nhập trên thiết bị công cộng hoặc không đáng tin cậy.</li>
+                        <li>Nếu bạn gặp khó khăn hay thắc mắc trong trình đăng ký W388, đừng ngần ngại liên hệ ngay với nhân viên tại đây nhé. </li>
+                        
+                    </div>
+
+                    <h2 class="mt-4 text-xl md:text-2xl font-medium "><b>(FAQ): Giải đáp liên quan đến đăng ký tài khoản W388</b></h2>
+                    <p class="mt-4 ">Nhìn chung, quy trình tạo tài khoản thành viên trên trang cá cược hàng đầu toàn cầu này khá đơn giản. Tuy nhiên, một số tân thủ thường có những câu hỏi thường gặp như sau:</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Tôi có thể tạo được bao nhiêu tài khoản W388?</b></h2>
+                    <p class="mt-4 ">Nhà cái có quy định rằng mỗi một thành viên chỉ có thể sở hữu một tài khoản duy nhất. Như vậy mới có thể đảm bảo được công bằng dành cho tất cả người chơi tham gia. Anh em lưu ý rằng việc đăng ký và sử dụng nhiều tài khoản trên cùng IP là vi phạm quy định của nhà cái và hậu quả có thể là bị khóa tài khoản vĩnh viễn.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Khi đăng ký W388 được hưởng ưu đãi gì?</b></h2>
+                    <p class="mt-4 ">Hiện tại, sàn cá cược này đang sở hữu nhiều chương trình khuyến mãi hấp dẫn dành cho thành viên mới như:</p>
+
+                    <div class="dist mt-4 *:p-2">
+                        <li>Thưởng nạp tiền lần đầu cho anh em mới báo danh tại nhà cái lên đến 200%.</li>
+                        <li>Tặng thưởng giftcode vào những dịp đặc biệt,…</li>
+                       
+                    </div>
+
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>Kết luận</b></h2>
+                    <p class="mt-4 ">Vậy là bạn đã thực hiện xong việc <b> đăng ký W388</b> rồi đó. Các thao tác rất đơn giản, chỉ chưa đến 5 phút là bạn đã trở thành một phần của sân chơi cá cược đẳng cấp toàn cầu. Chúc mọi người tham gia cá cược vui vẻ và kiếm được nhiều tiền thưởng mỗi ngày.</p>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-900 mt-10">
+        <div class="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div>
+                    <div class="flex justify-center text-teal-300 sm:justify-start">
+                        <img src="./images//logo.png" alt="">
+                    </div>
+
+                    <p
+                        class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
+                        W388 - Nhà cái hoạt động gần 10 năm trên thị trường với sự cấp phép của Philipines. Sân chơi
+                        được chứng nhận GEOTRUST, cam kết xanh chín với hội viên
+                    </p>
+                    <img src="./images//_dmca_premi_badge_4.png" alt="" class="ml-10 mt-4">
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4">
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">HƯỚNG DẪN</p>
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./dang-key.html">
+                                        Đăng ký
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Đăng-nhập.html">
+                                        Đăng nhập
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Nạp-tiền.html">
+                                        Nạp tiền
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Rút-tiền.html">
+                                        Rút tiền
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Khuyến-mãi.html">
+                                        Khuyến mãi
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">LIÊN HỆ</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./ve-chung-toi.html">
+                                        Về chúng tôi
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./lien-he.html">
+                                        Liên hệ
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./binh-ming-ceo-manager.html">
+                                        CEO Bình Minh
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./chinh-sach-bao-mat.html">
+                                        Chính sách bảo mật
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./dieu-khoan-va-dieu-kien.html">
+                                        Điều khoản và điều kiện
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./mien-trach-nhiem.html">
+                                        Miễn trách nhiệm
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg font-medium text-center text-white">KIẾN THỨC</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./live-casino.html">
+                                        Live casino
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./game-ba.html">
+                                        Game bài
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ban-ca.html">
+                                        Bắn cá
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ga-da.html">
+                                        Đá gà
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./the-thao.html">
+                                        Thể thao
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Xo-So.html">
+                                        Xổ số
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">THÔNG TIN LIÊN LẠC</p>
+
+                        <ul class="mt-8 space-y-4 text-sm *:p-1">
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Website: w388.dog
+                                </span>
+
+                            </li>
+
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Địa chỉ: Đ.TH67, Binh Hoà, An Hòa, Bình Dương, Việt Nam
+                                </span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 ">
+                <img src="./images//logo-okvip-1400x495.png" alt="" class="w-[170px]">
+            </div>
+            <div class="pt-6 mt-12 border-t border-gray-800">
+                <div class="text-center sm:flex sm:justify-between sm:text-left">
+                    <p class="text-sm text-gray-400">
+                        <span class="block sm:inline">Copyright 2024 © Flatsome Theme</span>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a id="button"></a>
+    <script src="index.js"></script>
+</body>
+
+</html>

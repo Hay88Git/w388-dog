@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../index.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" href="./images/icon.png">
+    <link rel="icon" href="../images/icon.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://w388vn.me/wp-content/uploads/2023/10/cropped-W388-FAV-32x32.jpg" sizes="32x32">
+    <link rel="icon" href="https://w388vn.me/wp-content/uploads/2023/10/cropped-W388-FAV-192x192.jpg" sizes="192x192">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css"
+        integrity="sha512-pmAAV1X4Nh5jA9m+jcvwJXFQvCBi3T17aZ1KWkqXr7g/O2YMvO8rfaa5ETWDuBvRq6fbDjlw4jHL44jNTScaKg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"
+        integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>W388 - W388BET CASINO TẶNG 100K TRẢI NGHIỆM - W388</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="navbar" class=" header w-full sticky top-0 left-0 z-50 duration-500">
+        <div class="bg-orange-800 opacity-100">
+            <div class="max-w-6xl m-auto px-2 py-1.5">
+                <div class="flex items-center justify-center md:justify-between  relative ">
+                    <!-- open nav -->
+                    <div class="menu-icon absolute left-0 md:hidden text-2xl mt-2 text-gray-100  " onclick="OpenNav()">
+                        <ion-icon name="menu-outline" class="text-gray-100 w-7 h-7 p-0.5 rounded-md "></ion-icon>
+                    </div>
+                    <!-- logo -->
+                    <div class="logo flex items-center cursor-pointer">
+                        <a href="index.html"><img src="../images/logo.png" class="max-w-[160px] "></a>
+                        <div class="hidden md:block ml-10">
+                            <div class="flex justify-center items-center border rounded-3xl bg-gray-600 opacity-30 ">
+                                <input type="search"
+                                    class="p-1.5  w-auto focus:ring focus:border-blue-500 font-normal bg-gray-100 border-none bg-transparent text-white focus:outline-none "
+                                    placeholder="Search..." required />
+                                <button class=" text-white py-2 px-3 focus:outline-none">
+                                    <ion-icon name="search" class="text-2xl flex text-black items-center"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu -->
+                    <nav id="Nav"
+                        class="z-40 fixed top-0 left-0 w-0 md:w-auto h-full overflow-x-hidden md:relative md:h-auto duration-300  ">
+                        <div
+                            class="md:hidden flex justify-end text-3xl  p-2 font-bold w-full h-full bg-gray-600 opacity-80 ">
+                            <ion-icon onclick="CloseNav()" name="close"></ion-icon>
+                        </div>
+                        <div
+                            class="h-full opacity-100 w-[250px] md:relative absolute top-0 flex flex-col  md:bg-transparent  bg-white">
+                            <!-- search -->
+                            <div class="mt-10 md:hidden p-4 border-b ">
+                                <div class="flex justify-center items-center border rounded-3xl ">
+                                    <input type="search"
+                                        class="p-1.5 focus:outline-none focus:border-white w-28  font-normal bg-gray-100 border-none bg-transparent text-gray-800"
+                                        placeholder="Search..." required />
+                                    <button class=" text-white py-2 px-3 ">
+                                        <ion-icon name="search"
+                                            class="text-2xl flex text-black items-center"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- menu item -->
+                            <div class="md:hidden">
+                                <ul
+                                    class="flex flex-wrap justify-center flex-col text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-black *:cursor-pointer  bg-opacity-100">
+                                    <li><a href="../index.html" class="hover:text-amber-400 hover:no-underline">TRANG
+                                            CHỦ</a></li>
+                                    <li><a href="../live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE
+                                            CASINO</a></li>
+                                    <li><a href="../game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME
+                                            BÀI</a></li>
+                                    <li><a href="../ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a>
+                                    </li>
+                                    <li><a href="../ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a>
+                                    </li>
+                                    <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ
+                                            THAO</a></li>
+                                    <li><a href="../Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a>
+                                    </li>
+                                    <li><a href="../tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN
+                                            TỨC</a></li>
+                                </ul>
+
+                            </div>
+                            <div
+                                class="text-white bg-orange-800   *:w-28  gap-5 py-2 justify-center items-center hidden md:block text-[15px] *:py-1.5 *:rounded *:shadow *:border-2 *:border-gray-600  *:duration-300">
+                                <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng
+                                    Ký</button>
+                                <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng
+                                    Nhập</button>
+                            </div>
+                            <div class="md:hidden">
+                                <div class="flex flex-col justify-center items-center mt-4">
+                                    <div class="p-2">
+                                        <h2 class=" text-gray-400">WooCommerce not Found</h2>
+                                    </div>
+                                    <div class="p-2 ">
+                                        <a href="" class="tracking-wide text-gray-400 hover:none-underline"><i
+                                                class="fa-regular fa-envelope"></i>NEWSLETTER
+                                        </a>
+                                    </div>
+                                    <div class="flex *:p-2">
+                                        <span class=" text-gray-400"><i class="fa-brands fa-facebook-f "></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-instagram"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-twitter"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-regular fa-envelope"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation screen -->
+        <div class="hidden md:block justify-center items-centerw-full py-2 bg-orange-950 ">
+            <ul
+                class="flex flex-wrap font-semibold justify-center  text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-white *:cursor-pointer">
+                <li><a href="../index.html" class="hover:text-amber-400 hover:no-underline">TRANG CHỦ</a></li>
+                <li><a href="../live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE CASINO</a></li>
+                <li><a href="../game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME BÀI</a></li>
+                <li><a href="../ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a></li>
+                <li><a href="../ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a></li>
+                <li><a href="../the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ THAO</a></li>
+                <li><a href="../Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a></li>
+                <li><a href="../tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN TỨC</a></li>
+            </ul>
+           
+
+        </div>
+        <div
+        class="md:hidden text-white bg-gray-800 *:w-24 flex gap-2 py-1 justify-center items-center text-[15px] *:py-1 *:rounded *:shadow *:border-2 *:border-gray-500  *:duration-300">
+        <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng Ký</button>
+        <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng Nhập</button>
+    </div>
+    </header>
+    <main id="main" class="">
+
+        <div class="items-center justify-center flex flex-col container">
+            <div class=" max-w-[1280px] w-full mb-20">
+                <div class="text-[18px]">
+                    <header class="mt-10">
+                        <div class="">
+                            <div class="text-xl font-semibold text-center col">
+                                <h1 class="text-[16px] uppercase">
+                                    Category Archives: <span>XỔ SỐ</span> </h1>
+                            </div>
+                        </div>
+                    </header>
+
+
+                    <div class="flex flex-col justify-center">
+
+                        <div class="">
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class="text-[12px]"><a href="https://w388vn.me/live-casino/"
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">XỔ SỐ</a></h6>
+                                    <h2 class="mt-6 "><a href="https://w388vn.me/baccarat-online/"
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline">Đánh Lô Theo Đầu Câm Thắng Quanh Năm Với 3 Chiến Thuật Hay</a></h2>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href="https://w388vn.me/baccarat-online/"
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500"> THÁNG BA 29, 2024</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="https://w388vn.me/author/admin/">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="https://w388vn.me/baccarat-online/">
+                                            <img width="800" height="400"
+                                                src="/images/Danh-lo-theo-dau-cam-nhu-the-nao.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">29</p>
+                                                <p class="text-[12px]">Th3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="text-[16px]">
+                                        <p>Đánh lô theo đầu câm khá đơn giản và dễ vận dụng với cả người mới bắt đầu trải nghiệm. Mặc dù vậy các bạn vẫn cần có những chiến thuật riêng để dự đoán chuẩn xác cặp số đẹp nhất trong ngày. Để biết đầu câm thì đánh con gì thắng lớn trên W388 […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 text-[12px] p-2 font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="https://w388vn.me/baccarat-online/">Continue reading <span
+                                                    class="meta-nav">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="https://w388vn.me/live-casino/" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">XỔ SỐ</a>
+                                    </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="https://w388vn.me/baccarat-online/#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class="text-[12px]"><a href="https://w388vn.me/live-casino/"
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">XỔ SỐ</a></h6>
+                                    <h2 class="mt-6 "><a href="https://w388vn.me/baccarat-online/"
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline">Đầu 5 Câm Đánh Con Gì Để Tiền Thưởng Rinh Về Đầy Túi?</a></h2>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href="https://w388vn.me/baccarat-online/"
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500"> THÁNG BA 29, 2024</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="https://w388vn.me/author/admin/">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="https://w388vn.me/baccarat-online/">
+                                            <img width="800" height="400"
+                                                src="/images/dau-5-cam-danh-con-gi-giai-thich-dau-5-cam-la-gi.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">29</p>
+                                                <p class="text-[12px]">Th3</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="text-[16px]">
+                                        <p>Đầu 5 câm đánh con gì để ăn chắc tiền thưởng đang là câu hỏi được nhiều hội viên gia nhập W388 quan tâm. Nếu bạn cũng vừa mới gia nhập bộ môn này và đang phân vân chưa biết đánh số nào? Bài viết sau đây sẽ cung cấp cho các bạn những gợi […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 text-[12px] p-2 font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="https://w388vn.me/baccarat-online/">Continue reading <span
+                                                    class="meta-nav">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="https://w388vn.me/live-casino/" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">XỔ SỐ</a>
+                                    </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="https://w388vn.me/baccarat-online/#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class="text-[12px]"><a href="https://w388vn.me/live-casino/"
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">XỔ SỐ</a></h6>
+                                    <h2 class="mt-6 "><a href="https://w388vn.me/baccarat-online/"
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline">Mơ Thấy Đàn Ông Cho Tiền Và Những Điềm Báo Về Tương Lai                                        </a></h2>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href="https://w388vn.me/baccarat-online/"
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500">  THÁNG MƯỜI MỘT 13, 2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="https://w388vn.me/author/admin/">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="https://w388vn.me/baccarat-online/">
+                                            <img width="800" height="400"
+                                                src="/images/mo-thay-dan-ong-cho-tien-4.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">13</p>
+                                                <p class="text-[12px]">Th11</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="text-[16px]">
+                                        <p>Trong cuộc sống chúng ta sẽ thường hay gặp những giấc mơ có liên quan đến đời thực. Đặc biệt phải kể đến như giấc mơ được người khác cho tiền nói chung và mơ thấy đàn ông cho tiền nói riêng. Giấc mơ này muốn nói với chúng ta điều gì và những con […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 text-[12px] p-2 font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="https://w388vn.me/baccarat-online/">Continue reading <span
+                                                    class="meta-nav">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="https://w388vn.me/live-casino/" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">XỔ SỐ</a>
+                                    </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="https://w388vn.me/baccarat-online/#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class="text-[12px]"><a href="https://w388vn.me/live-casino/"
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">XỔ SỐ</a></h6>
+                                    <h2 class="mt-6 "><a href="https://w388vn.me/baccarat-online/"
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline">Nằm mơ thấy mình khóc là điềm tốt hay xấu trong tương lai    </a></h2>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href="https://w388vn.me/baccarat-online/"
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500"> THÁNG MƯỜI MỘT 11, 2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="https://w388vn.me/author/admin/">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="https://w388vn.me/baccarat-online/">
+                                            <img width="800" height="400"
+                                                src="/images/mo-thay-minh-khoc-3.jpg"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">11</p>
+                                                <p class="text-[12px]">Th11</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="text-[16px]">
+                                        <p>Khóc là một trong những cách để biểu lộ cảm xúc của con người. Chúng ta sẽ khóc khi gặp phải những biến cố đau buồn và tổn thương. Vì thế mà khi mơ thấy mình khóc nhiều người sẽ nghĩ rằng đây là điềm báo không tốt. Tuy nhiên giấc mơ này có mang […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 text-[12px] p-2 font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="https://w388vn.me/baccarat-online/">Continue reading <span
+                                                    class="meta-nav">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="https://w388vn.me/live-casino/" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">XỔ SỐ</a>
+                                    </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="https://w388vn.me/baccarat-online/#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+                            
+                            <div class="article-inner ">
+                                <div class="mt-10 text-center">
+                                    <h6 class="text-[12px]"><a href="https://w388vn.me/live-casino/"
+                                            class="text-red-500 text-[12px] hover:no-underline hover:text-gray-600">XỔ SỐ</a></h6>
+                                    <h2 class="mt-6 "><a href="https://w388vn.me/baccarat-online/"
+                                            class="text-[18px] md:text-2xl font-semibold p-4 hover:no-underline">Mơ Thấy Tiền Đánh Con Gì Chắc Thắng? Bật Mí Dự Báo Tương Lai </a></h2>
+                                    <div class="text-[10px] font-medium uppercase text-gray-500 mt-4">
+                                        <span class="">Posted on <a href="https://w388vn.me/baccarat-online/"
+                                                rel="bookmark" class="hover:no-underline hover:text-gray-500"><time
+                                                    class="text-red-500  hover:text-gray-500"> THÁNG MƯỜI 23, 2023</time></a></span> <span class="byline">by <span
+                                                class="text-red-500"><a
+                                                    class="url fn n hover:no-underline hover:text-gray-500"
+                                                    href="https://w388vn.me/author/admin/">admin</a></span></span>
+                                    </div>
+                                </div>
+                                <div class=" flex justify-center mt-6 ">
+                                    <div class="relative">
+                                        <a href="https://w388vn.me/baccarat-online/">
+                                            <img width="800" height="400"
+                                                src="/images/Artboard 16.png"
+                                                class="w-full"></a>
+                                        <div
+                                            class="absolute top-10 bg-gray-100 border-2 border-blue-500 z-10 left-[-8px]">
+                                            <div class="w-8 *:text-center">
+                                                <p class="text-[12px]">23</p>
+                                                <p class="text-[12px]">Th10</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-10">
+                                    <div class="text-[16px]">
+                                        <p>Mơ thấy tiền mang điềm báo lành hay dữ cho gia chủ trong tương lai? Đây chắc chắn là nỗi băn khoăn của bất cứ ai khi gặp giấc mơ kỳ lạ này. Để giải đáp vấn đề này, bạn hãy cùng đội ngũ chuyên gia W388 cắt nghĩa giấc chiêm bao. Ngoài ra, các […]
+                                        </p>
+                                        <div class="text-center mt-4 ">
+                                            <a class="border-2 border-blue-900 text-[12px] p-2 font-semibold uppercase hover:no-underline hover:text-gray-500"
+                                                href="https://w388vn.me/baccarat-online/">Continue reading <span
+                                                    class="meta-nav">→</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <footer class="border-t border-b p-2 mt-6 text-[12px]">
+                                    <span class="cat-links">
+                                        Posted in <a href="https://w388vn.me/live-casino/" rel="category tag"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">XỔ SỐ</a>
+                                    </span>
+
+
+                                    <span class="comments-link pull-right"><a
+                                            href="https://w388vn.me/baccarat-online/#respond"
+                                            class="text-red-500 hover:no-underline hover:text-gray-500">Leave a
+                                            comment</a></span>
+                                </footer>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </main>
+    <div class="container flex justify-center mx-auto">
+        <div class="flex flex-row mx-auto">
+          <button type="button" class="bg-gray-800 text-white rounded-l-md border-r border-gray-100 py-2 hover:bg-red-700 hover:text-white px-3">
+            <a href="../Xo-So.html" class="flex flex-row align-middle">
+              <svg class="w-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"></path>
+              </svg>
+              <p class="ml-2">Prev</p>
+            </a>
+          </button>
+          <button type="button" class="bg-gray-800 text-white rounded-r-md py-2 border-l border-gray-200 hover:bg-red-700 hover:text-white px-3">
+            <a href="/xo-so/page2.html" class="flex flex-row align-middle">
+              <span class="mr-2">Next</span>
+              <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </button>
+        </div>
+      </div>
+      <footer class="bg-gray-900 mt-10">
+        <div class="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div>
+                    <div class="flex justify-center text-teal-300 sm:justify-start">
+                        <img src="./images//logo.png" alt="">
+                    </div>
+
+                    <p
+                        class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
+                        W388 - Nhà cái hoạt động gần 10 năm trên thị trường với sự cấp phép của Philipines. Sân chơi
+                        được chứng nhận GEOTRUST, cam kết xanh chín với hội viên
+                    </p>
+                    <img src="./images//_dmca_premi_badge_4.png" alt="" class="ml-10 mt-4">
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4">
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">HƯỚNG DẪN</p>
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./dang-key.html">
+                                        Đăng ký
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Đăng-nhập.html">
+                                        Đăng nhập
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Nạp-tiền.html">
+                                        Nạp tiền
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Rút-tiền.html">
+                                        Rút tiền
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Khuyến-mãi.html">
+                                        Khuyến mãi
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">LIÊN HỆ</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./ve-chung-toi.html">
+                                        Về chúng tôi
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./lien-he.html">
+                                        Liên hệ
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./binh-ming-ceo-manager.html">
+                                        CEO Bình Minh
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./chinh-sach-bao-mat.html">
+                                        Chính sách bảo mật
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./dieu-khoan-va-dieu-kien.html">
+                                        Điều khoản và điều kiện
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./mien-trach-nhiem.html">
+                                        Miễn trách nhiệm
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg font-medium text-center text-white">KIẾN THỨC</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./live-casino.html">
+                                        Live casino
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./game-ba.html">
+                                        Game bài
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ban-ca.html">
+                                        Bắn cá
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ga-da.html">
+                                        Đá gà
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./the-thao.html">
+                                        Thể thao
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Xo-So.html">
+                                        Xổ số
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">THÔNG TIN LIÊN LẠC</p>
+
+                        <ul class="mt-8 space-y-4 text-sm *:p-1">
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Website: w388.dog
+                                </span>
+
+                            </li>
+
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Địa chỉ: Đ.TH67, Binh Hoà, An Hòa, Bình Dương, Việt Nam
+                                </span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 ">
+                <img src="./images//logo-okvip-1400x495.png" alt="" class="w-[170px]">
+            </div>
+            <div class="pt-6 mt-12 border-t border-gray-800">
+                <div class="text-center sm:flex sm:justify-between sm:text-left">
+                    <p class="text-sm text-gray-400">
+                        <span class="block sm:inline">Copyright 2024 © Flatsome Theme</span>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a id="button"></a>
+    <script src="../index.js"></script>
+</body>
+
+</html>

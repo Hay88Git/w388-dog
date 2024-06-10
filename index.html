@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/small_icon.jpg">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>W388 - W388 CASINO TẶNG 100K TRẢI NGHIỆM - W388</title>
+</head>
+
+<body>
+    <header id="navbar" class=" header w-full sticky top-0 left-0 z-50 duration-500">
+        <div class="bg-orange-800 opacity-100">
+            <div class="max-w-6xl m-auto px-2 py-1.5">
+                <div class="flex items-center justify-center md:justify-between  relative ">
+                    <!-- open nav -->
+                    <div class="menu-icon absolute left-0 md:hidden text-2xl mt-2 text-gray-100  " onclick="OpenNav()">
+                        <ion-icon name="menu-outline" class="text-gray-100 w-7 h-7 p-0.5 rounded-md "></ion-icon>
+                    </div>
+                    <!-- logo -->
+                    <div class="logo flex items-center cursor-pointer">
+                        <a href="index.html"><img src="./images/logo.png" class="max-w-[160px] "></a>
+                        <div class="hidden md:block ml-10">
+                            <div class="flex justify-center items-center border rounded-3xl bg-gray-600 opacity-30 ">
+                                <input type="search"
+                                    class="p-1.5  w-auto focus:ring focus:border-blue-500 font-normal bg-gray-100 border-none bg-transparent text-white focus:outline-none "
+                                    placeholder="Search..." required />
+                                <button class=" text-white py-2 px-3 focus:outline-none">
+                                    <ion-icon name="search" class="text-2xl flex text-black items-center"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu -->
+                    <nav id="Nav"
+                        class="z-40 fixed top-0 left-0 w-0 md:w-auto h-full overflow-x-hidden md:relative md:h-auto duration-300  ">
+                        <div
+                            class="md:hidden flex justify-end text-3xl  p-2 font-bold w-full h-full bg-gray-600 opacity-80 ">
+                            <ion-icon onclick="CloseNav()" name="close"></ion-icon>
+                        </div>
+                        <div
+                            class="h-full opacity-100 w-[250px] md:relative absolute top-0 flex flex-col  md:bg-transparent  bg-white">
+                            <!-- search -->
+                            <div class="mt-10 md:hidden p-4 border-b ">
+                                <div class="flex justify-center items-center border rounded-3xl ">
+                                    <input type="search"
+                                        class="p-1.5 focus:outline-none focus:border-white w-28  font-normal bg-gray-100 border-none bg-transparent text-gray-800"
+                                        placeholder="Search..." required />
+                                    <button class=" text-white py-2 px-3 ">
+                                        <ion-icon name="search"
+                                            class="text-2xl flex text-black items-center"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- menu item -->
+                            <div class="md:hidden">
+                                <ul
+                                    class="flex flex-wrap justify-center flex-col text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-black *:cursor-pointer  bg-opacity-100">
+                                    <li><a href="/index.html" class="hover:text-amber-400 hover:no-underline">TRANG
+                                            CHỦ</a></li>
+                                    <li><a href="/live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE
+                                            CASINO</a></li>
+                                    <li><a href="/game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME
+                                            BÀI</a></li>
+                                    <li><a href="ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a>
+                                    </li>
+                                    <li><a href="ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a>
+                                    </li>
+                                    <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ
+                                            THAO</a></li>
+                                    <li><a href="Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a>
+                                    </li>
+                                    <li><a href="tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN
+                                            TỨC</a></li>
+                                </ul>
+
+                            </div>
+                            <div
+                                class="text-white bg-orange-800   *:w-28  gap-5 py-2 justify-center items-center hidden md:block text-[15px] *:py-1.5 *:rounded *:shadow *:border-2 *:border-gray-600  *:duration-300">
+                                <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng
+                                    Ký</button>
+                                <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng
+                                    Nhập</button>
+                            </div>
+                            <div class="md:hidden">
+                                <div class="flex flex-col justify-center items-center mt-4">
+                                    <div class="p-2">
+                                        <h2 class=" text-gray-400">WooCommerce not Found</h2>
+                                    </div>
+                                    <div class="p-2 ">
+                                        <a href="" class="tracking-wide text-gray-400 hover:none-underline"><i
+                                                class="fa-regular fa-envelope"></i>NEWSLETTER
+                                        </a>
+                                    </div>
+                                    <div class="flex *:p-2">
+                                        <span class=" text-gray-400"><i class="fa-brands fa-facebook-f "></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-instagram"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-brands fa-twitter"></i></span>
+                                        <span class=" text-gray-400"><i class="fa-regular fa-envelope"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- navigation screen -->
+        <div class="hidden md:block justify-center items-centerw-full py-2 bg-orange-950 ">
+            <ul
+                class="flex flex-wrap font-semibold justify-center  text-[15px] tracking-wider  divide-slate-200 *:p-4 *:duration-300 *:text-white *:cursor-pointer">
+                <li><a href="/index.html" class="hover:text-amber-400 hover:no-underline">TRANG CHỦ</a></li>
+                <li><a href="/live-casino.html" class="hover:text-amber-400 hover:no-underline">LIVE CASINO</a></li>
+                <li><a href="/game-ba.html" class="hover:text-amber-400 hover:no-underline">GAME BÀI</a></li>
+                <li><a href="ban-ca.html" class="hover:text-amber-400 hover:no-underline">BẮN CÁ</a></li>
+                <li><a href="ga-da.html" class="hover:text-amber-400 hover:no-underline">ĐÁ GÀ</a></li>
+                <li><a href="the-thao.html" class="hover:text-amber-400 hover:no-underline">THỂ THAO</a></li>
+                <li><a href="Xo-So.html" class="hover:text-amber-400 hover:no-underline">XỔ SỐ</a></li>
+                <li><a href="tin-tuc.html" class="hover:text-amber-400 hover:no-underline">TIN TỨC</a></li>
+            </ul>
+           
+
+        </div>
+        <div
+        class="md:hidden text-white bg-gray-800 *:w-24 flex gap-2 py-1 justify-center items-center text-[15px] *:py-1 *:rounded *:shadow *:border-2 *:border-gray-500  *:duration-300">
+        <button onclick="url()" class="bg-[#505ac7] hover:bg-white hover:text-[#505ac7]">Đăng Ký</button>
+        <button onclick="url()" class="bg-[#d33] hover:bg-white hover:text-yellow-600">Đặng Nhập</button>
+    </div>
+    </header>
+    <div class="bg-red-200 sticky top-0">
+
+
+    </div>
+    <section class="bg-gray-900">
+        <div class="h-[80vh] md:h-[50vh] bg-cover bg-center z-10 relative">
+            <div class="image bg-orange-500 opacity-50 h-full">
+                <img src="https://w388vn.me/wp-content/uploads/2024/03/baner.webp"
+                    class="opacity-50 object-cover w-full h-full ">
+            </div>
+            <div
+                class=" absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] *:text-white *:font-semibold w-[90%] md:w-[80%] lg:w-[50%]">
+                <h1 class="text-2xl p-2" style="text-align: center;"><strong>W388: Nhà Cái Uy Tín Cho Trò Chơi
+                        Cá Cược Trực Tuyến</strong></h1>
+                <p class="w-full p-2"><strong><a href="https://w388vn.me/"
+                            class="text-red-400 hover:text-blue-900">W388</a>
+                        được
+                        biết đến là nhà cái uy tín, cung cấp một loạt các các dịch vụ cá cược đỉnh cao. Nhà cái
+                        cũng đã đạt được nhiều giải thưởng và chứng nhận uy tín, khẳng định vị thế là một trong
+                        những nhà cái trực tuyến đáng tin cậy nhất hiện nay.</strong><br>
+            </div>
+        </div>
+    </section>
+    <section class="bg-white">
+        <div class="items-center justify-center flex flex-col container">
+            <div class=" max-w-[1280px] w-full ">
+                <div class="text-[18px]">
+                    <h2 class="p-2 text-xl md:text-2xl" style="text-align: center;"><b>Khái quát tổng quan về nhà
+                            cái</b></h2>
+                    <p class="mt-2"><span style="font-weight: 400;"><strong><a href="index.html"
+                                    class="text-red-500">W388</a></strong> là sân
+                            chơi cá cược trực tuyến hàng đầu hiện nay, nhà cái được thành lập vào cuối năm 2013 và hiện
+                            đang được đặt trụ sở tạ iPhilippines.Hiện nay, sân chơi này đã được cấp phép hoạt động hợp
+                            pháp bởi Cơ quan quản lý cờ bạc PAGCOR (Tập đoàn Giải trí và Trò chơi Philippines).</span>
+                    </p>
+                    <p class="mt-4"><span style="font-weight: 400;">Kể từ khi thành lập, W388 đã không ngừng phát triển
+                            và mở rộng
+                            hoạt động kinh doanh của mình. Nhà cái này đã xây dựng được một danh tiếng vững chắc trong
+                            ngành công nghiệp cá cược trực tuyến nhờ vào các sản phẩm chất lượng cao, dịch vụ khách hàng
+                            xuất sắc và tính bảo mật an toàn.</span></p>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/nha-cai-w388.jpg">
+                            <figcaption class="wp-caption-text justify-center flex item">Khái quát tổng quan về nhà cái
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p class="mt-4">Năm 2016, W388 đã đạt được thỏa thuận hợp tác với câu lạc bộ bóng đá nổi tiếng
+                        Manchester City,
+                        trở thành nhà tài trợ chính thức của đội bóng này. Sự hợp tác này đã giúp W388 nâng cao đáng kể
+                        vị thế và nhận diện thương hiệu của mình trên toàn thế giới. Trong những năm gần đây, nhà cái đã
+                        liên tục mở rộng các sản phẩm và dịch vụ của mình để đáp ứng nhu cầu ngày càng đa dạng của người
+                        chơi.</p>
+                    <p class="mt-4">Hiện nhà cái W388 cung cấp tới người chơi một loạt các trò chơi cá cược hấp dẫn như:
+                        cá cược thể
+                        thao, sòng bạc trực tuyến, xổ số và nhiều trò chơi khác. Với cam kết cung cấp trải nghiệm cá
+                        cược trực tuyến an toàn, công bằng và thú vị, W388 đã đầu tư đáng kể vào các biện pháp bảo mật
+                        và công nghệ tiên tiến. </p>
+                    <span class="mt-4 justify-center flex items-center flex-wrap">Xem thêm tại nhà cái uy tín khác</span>
+                    <h2 class="mt-4 text-xl md:text-3xl font-semibold "><b>Đánh giá chi tiết W388</b></h2>
+                    <p class="mt-4">Không phải ngẫu nhiên mà nhà cái W388 lại chiếm được sự yêu thích của đông đảo người
+                        chơi. Là bởi nhà cái này sở hữu nhiều đặc điểm nổi bật, mang đến cho người chơi những trải
+                        nghiệm cá cược tuyệt vời. Để có đánh giá toàn diện nhất, hãy cùng chúng tôi sẽ xem xét kỹ lưỡng
+                        từng khía cạnh quan trọng của sân chơi này, bao gồm:</p>
+                    <h2 class="mt-4 text-2xl font-semibold"><b>Giao diện website</b></h2>
+                    <p class="mt-4 flex justify-center items-center">Giao diện trang web nhà cái được thiết kế sắc nét
+                        mang đến cho người dùng trải nghiệm chơi sống động, liền mạch.</p>
+                    <div class="dist mt-4 *:p-2">
+                        <li>Link vào W388 không bị chặn, giao diện hiện đại và thân thiện với người dùng, với tông màu
+                            chủ đạo là xanh lá và trắng tạo cảm giác tươi mới và dễ chịu.</li>
+                        <li>Các danh mục trò chơi được sắp xếp khoa học và rõ ràng, giúp người chơi dễ dàng tìm thấy trò
+                            chơi mình yêu thích.</li>
+                        <li>Website rất dễ điều hướng. Các nút chức năng của nhà cái được bố trí rất khoa học và trực
+                            quan, giúp người chơi dễ dàng truy cập vào các tính năng khác nhau của trang web.</li>
+                        <li>Chức năng tìm kiếm cũng rất hữu ích, giúp người chơi nhanh chóng tìm thấy trò chơi hoặc
+                            thông tin mà họ cần.</li>
+                    </div>
+                    <h2 class="p-2 text-xl md:text-2xl"><b>Ứng dụng di động</b></h2>
+                    <p class="mt-2"><b>W388 app</b> </a></strong> có thiết kế tương tự như website, với đầy đủ các tính
+                        năng và trò chơi. Ứng dụng được tối ưu hóa cho cả hệ điều hành iOS và Android, mang đến trải
+                        nghiệm chơi game mượt mà và tiện lợi. </span>
+                    </p>
+                    <p class="mt-4 flex justify-center items-center">Ngoài giao diện và tính dễ sử dụng, website và ứng
+                        dụng di động W388 còn cung cấp nhiều tính năng hữu ích, bao gồm:</p>
+                    <div class="dist mt-4 *:p-2">
+                        <li>Phát trực tiếp trận đấu: Bạn có thể xem live trực tiếp trận đá bóng ngay trên ứng dụng
+                            mobile hoặc trên website của chúng tôi.</li>
+                        <li>Thống kê và kết quả: Cung cấp thông tin chi tiết về các trận đấu và giải đấu, giúp người
+                            chơi đưa ra quyết định đặt cược sáng suốt hơn.</li>
+                        <li>Tính năng trò chuyện trực tiếp: Người chơi có thể dễ dàng liên hệ với bộ phận hỗ trợ khách
+                            hàng thông qua tính năng trò chuyện trực tiếp trên website hoặc ứng dụng di động.</li>
+                    </div>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/Artboard 19.png">
+                            <figcaption class="wp-caption-text justify-center flex item"><i>Giao diện website nhà
+                                    cái</i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h2 class="p-2 text-xl "><b>Dịch vụ chăm sóc khách hàng</b></h2>
+                    <p class="mt-4 flex justify-center items-center">Chất lượng dịch vụ chăm sóc khách hàng là yếu tố
+                        quan trọng quyết định trải nghiệm người chơi tại bất kỳ nhà cái trực tuyến nào.</p>
+                    <div class="dist mt-4 *:p-2">
+                        <li>Thời gian phản hồi: Nhà cái hỗ trợ người chơi nhiều kênh hỗ trợ khách hàng khác nhau như:
+                            trò chuyện trực tuyến, email và điện thoại. Thời gian phản hồi thường nhanh chóng, với các
+                            cuộc trò chuyện trực tuyến được giải quyết trong vài phút và email được trả lời trong vòng
+                            24 giờ.</li>
+                        <li>Thái độ: Đội ngũ hỗ trợ khách hàng được đào tạo chuyên nghiệp và thân thiện, luôn sẵn lòng
+                            trợ giúp và giải quyết các vấn đề của người chơi. Họ sử dụng ngôn ngữ lịch sự và chuyên
+                            nghiệp, tạo cho người chơi cảm giác được tôn trọng và được hỗ trợ.</li>
+                        <li>Khả năng giải quyết vấn đề: Được trang bị kiến thức sâu rộng về các sản phẩm và dịch vụ của
+                            nhà cái, đội ngũ tư vấn viên có thể giải quyết hầu hết các vấn đề ngay lập tức, hoặc sẽ
+                            chuyển tiếp vấn đề đến bộ phận có thẩm quyền để được giải quyết nhanh chóng.</li>
+                    </div>
+                    <p class="mt-4 ">Nhìn chung, dịch vụ chăm sóc khách hàng của W388 đạt tiêu chuẩn cao, cung cấp hỗ
+                        trợ nhanh chóng, hiệu quả và thân thiện cho người chơi. Điều này giúp tạo ra trải nghiệm cá cược
+                        trực tuyến an tâm và dễ chịu.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Bảo mật thông tin</b></h2>
+                    <p class="mt-4 ">W388 coi trọng việc bảo vệ thông tin và tiền bạc của người chơi, triển khai nhiều
+                        biện pháp bảo mật và an toàn chặt chẽ. Nhà cái W388 sử dụng hệ thống mã hóa SSL đảm bảo an toàn
+                        tuyệt mật về thông tin của người chơi.</p>
+                    <p class="mt-4 ">Ngoài ra, tuân thủ nghiêm ngặt các tiêu chuẩn bảo mật quốc tế, bao gồm cả Ủy ban cờ
+                        bạc Gibraltar (GGC) và Ủy ban cờ bạc Vương quốc Anh (UKGC). Những chứng nhận uy tín này xác nhận
+                        rằng W388 đáp ứng các yêu cầu bảo mật cao nhất và hoạt động theo các nguyên tắc công bằng, minh
+                        bạch.</p>
+                    <p class="mt-4 ">Bên cạnh đó, nhà cái cũng thực hiện các biện pháp bảo vệ tiền bạc của người chơi
+                        như xác minh danh tính hai yếu tố (2FA) và các giới hạn rút tiền hợp lý. Những biện pháp này
+                        giúp ngăn chặn gian lận và đảm bảo rằng tiền của người chơi luôn được an toàn.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>Các dịch vụ chính tại nhà cái</b></h2>
+                    <p class="mt-4 ">Trang game W388 tự hào cung cấp tới người chơi một loạt các dịch vụ cá cược và giải
+                        trí hấp dẫn để đáp ứng nhu cầu chơi đa dạng nhất. Từ cá cược thể thao, casino trực tuyến đến các
+                        trò chơi slot hấp dẫn, hứa hẹn mang đến cho bạn một thế giới giải trí vô tận.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Cá cược thể thao</b></h2>
+                    <p class="mt-4 ">Thể thao W388 – Nơi bạn có thể hòa mình vào không khí sôi động của những trận đấu
+                        thể thao đỉnh cao. Từ bóng đá, quần vợt, bóng rổ đến nhiều môn thể thao hấp dẫn khác. Tại đây
+                        cung cấp hàng nghìn sự kiện thể thao mỗi ngày, cùng tỷ lệ cược cạnh tranh và nhiều loại cược
+                        phong phú. Đừng bỏ lỡ cơ hội đặt cược và cổ vũ đội bóng yêu thích của bạn!</p>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/Artboard 9.png">
+                            <figcaption class="wp-caption-text justify-center flex item"><i>Cược thể thao W388 với nhiều
+                                    trận đấu vô cùng hấp dẫn</i>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <h2 class="mt-2 p-2 text-xl "><b>Casino trực tuyến</b></h2>
+                    <p class="mt-4 ">Nếu bạn yêu thích sự hào nhoáng của casino, thì <b> W388 casino </b>chính là thiên
+                        đường dành cho bạn. Với những trò chơi kinh điển như: baccarat, blackjack, roulette và nhiều trò
+                        chơi khác, bạn có thể trải nghiệm cảm giác hồi hộp của một sòng bạc thực thụ ngay tại nhà. Các
+                        trò chơi tại đây đều được cung cấp bởi các nhà phát triển phần mềm uy tín, đảm bảo cho bạn những
+                        giây phút giải trí công bằng và hấp dẫn. </p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Slot game</b></h2>
+                    <p class="mt-4 ">Đối với những ai thích sự đơn giản và nhanh chóng, slot game là lựa chọn hoàn hảo.
+                        Với hàng trăm trò chơi slot đến từ các nhà cung cấp hàng đầu thế giới, bạn tha hồ lựa chọn các
+                        chủ đề và tính năng đa dạng. Từ những trò chơi cổ điển đến các trò chơi 3D hiện đại, đảm bảo bạn
+                        sẽ có những giây phút giải trí tuyệt vời và cơ hội giành được giải thưởng lớn.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Xổ số</b></h2>
+                    <p class="mt-4 ">Sảnh xổ số tại W388 cung cấp nhiều loại xổ số khác nhau như: xổ số truyền thống, xổ
+                        số siêu tốc… Người chơi có thể lựa chọn nhiều loại vé cược khác nhau để tăng cơ hội trúng
+                        thưởng.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Bắn cá</b></h2>
+                    <p class="mt-4 ">Sảnh bắn cá W388 là một trò chơi giải trí hấp dẫn khi sở hữu giao diện đồ họa đẹp
+                        mắt và lối chơi cực đơn giản. Người chơi sẽ được hóa thân thành những thợ săn dưới đại dương,
+                        bắn hạ các loại cá khác nhau để tích lũy điểm thưởng và đổi thành tiền mặt.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Game bài</b></h2>
+                    <p class="mt-4 "><b>W388 sòng bài trực tuyến</b> là nơi hội tụ nhiều trò chơi bài phổ biến như tiến
+                        lên miền Nam, phỏm, liêng,… với luật chơi đơn giản và dễ hiểu. Theo đó, người chơi có nhiều lựa
+                        chọn các bàn chơi với đa dạng mức cược khác nhau.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Thể thao ảo</b></h2>
+                    <p class="mt-4 ">Sảnh thể thao ảo của nhà cái cung cấp các trận đấu ảo diễn ra liên tục trong ngày.
+                        Người chơi có thể tham gia cá cược vào các môn thể thao ảo như bóng đá, bóng rổ, đua ngựa, … với
+                        thời gian diễn ra nhanh chóng và tỷ lệ cược cao.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>Các dịch vụ chính tại nhà cái</b></h2>
+                    <span class="mt-4 justify-center flex items-center">Dưới đây là từng bước tham gia cá cược tại nhà
+                        cái này một cách nhanh chóng và dễ dàng.
+                    </span>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/dang-ky-w388-1.jpg">
+                            <figcaption class="wp-caption-text justify-center flex item"><i>Đăng ký tài khoản nhà
+                                    cái</i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="dist mt-4 *:p-2">
+                        <li> <b>Bước 1: </b>Tạo tài khoản W388: Vào link chính thức nhà cái và nhấn vào nút “Đăng Ký” ở
+                            góc trên cùng bên phải. Bạn điền đầy đủ thông tin của mình như: SĐT, địa chỉ, Email,… Sau đó
+                            nhấn vào “Đăng ký”.</li>
+                        <li> <b>Bước 2: </b>Xác minh tài khoản: Nhà cái yêu cầu bạn xác minh tài khoản của mình. Hãy
+                            nhấp vào mail chứa liên kết để kích hoạt tài khoản.</li>
+                        <li> <b>Bước 3: </b> Nạp tiền vào tài khoản: Để có thể hiện hành bắt đầu cá cược, bạn cần nạp
+                            tiền vào tài khoản W388 của mình. .</li>
+                        <li> <b>Bước 4: </b>Chọn sảnh chơi: Việc của bạn là lựa chọn sảnh chơi phù hợp với sở thích của
+                            mình và khám phá các trò chơi có sẵn.</li>
+                        <li> <b>Bước 5: </b>Đặt cược: Sau khi chọn trò chơi, bạn có thể đặt cược. Hãy xem xét tỷ lệ cược
+                            cẩn thận và đặt cược phù hợp với khả năng tài chính của bạn.</li>
+                        <li> <b>Bước 6: </b>Theo dõi kết quả: Sau khi đặt cược, bạn cần phải theo dõi kết quả trên
+                            website hoặc ứng dụng di động của W388. Nếu thắng, tài khoản của bạn sẽ được cộng tiền.</li>
+                        <li> <b>Bước 7: </b>Rút tiền: Khi bạn có đủ tiền thắng cược, bạn có thể rút tiền về tài khoản
+                            ngân hàng hoặc ví điện tử của mình.</li>
+                    </div>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>W388 hỗ trợ các hình thức giao dịch nào?</b></h2>
+                    <p class="mt-4 "><b>W388 bet </b>hỗ trợ người chơi nhiều phương thức giao dịch linh hoạt để đáp ứng
+                        nhu cầu khi nạp rút tiền tại nhà cái. Các hình thức giao dịch nhà cái cung cấp như:</p>
+                    <div class="dist mt-4 *:p-2">
+                        <li>Chuyển khoản ngân hàng: Người chơi có thể nạp và rút tiền thông qua chuyển khoản đến các
+                            ngân hàng như: Vietcombank, ACB, Techcombank,…</li>
+                        <li>Thẻ cào điện thoại: W388 hỗ trợ người chơi nạp tiền qua hình thức thẻ cào của các nhà mạng:
+                            như Viettel, Vinaphone, Mobifone,…</li>
+                        <li>Ví điện tử: Bạn có thể nạp và rút tiền qua các ví điện tử: như Momo, ZaloPay, ViettelPay,…
+                        </li>
+                        <li>Tiền điện tử: W388 hỗ trợ giao dịch bằng tiền điện tử như Bitcoin, Ethereum, USDT,… với tính
+                            bảo mật và tiện lợi cao.</li>
+                    </div>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/w388-nap-rut-nhanh-chong-1.jpg">
+                            <figcaption class="wp-caption-text justify-center flex item"><i>W388 hỗ trợ nạp – rút nhanh
+                                    chóng</i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>Hướng dẫn tải W388 nhanh nhất</b></h2>
+                    <span class="mt-4 justify-center flex items-center">Để trải nghiệm những trò chơi cá cược hấp dẫn
+                        tại W388, bạn cần tải và cài đặt ứng dụng về thiết bị của mình. Chi tiết hướng dẫn sau:
+                    </span>
+                    <h2 class="mt-2 p-2 text-xl "><b>Tải W388 trên PC</b></h2>
+                    <div class=" flex justify-center items-center flex-col">
+                        <div class="dist mt-4 *:p-2">
+                            <li><b>Bước 1:</b> Truy cập website chính thức của W388 và nhấp vào nút “Tải về”.</li>
+                            <li><b>Bước 2: </b>Chọn phiên bản tải xuống phù hợp với hệ điều hành của bạn (Windows hoặc
+                                Mac).
+                            </li>
+                            <li><b>Bước 3: </b>Mở cài đặt đã tải xuống và làm theo hướng dẫn.</li>
+                            <li><b>Bước 4: </b>Bạn hoàn thành các cài đặt và đăng nhập vào tài khoản W388.</li>
+                        </div>
+                    </div>
+                    <h2 class="mt-2 p-2 text-xl "><b>Tải W388 trên điện thoại</b></h2>
+                    <p class="mt-4 justify-center flex items-center ">Đối với mỗi hệ điều hành, bạn hãy làm theo hướng
+                        dẫn dưới đây.</p>
+                    <h2 class="mt-2 p-2 text-xl "><b>Đối với iOS</b></h2>
+                    <div class=" flex justify-center items-center flex-col">
+                        <div class="dist mt-4 *:p-2">
+                            <li><b>Bước 1: </b>Truy cập App Store và tìm kiếm “W388”.</li>
+                            <li><b>Bước 2: </b>Nhấn vào button biểu tượng “Tải về” và đợi quá trình tải xuống hoàn tất.
+                            </li>
+                            <li><b>Bước 3: </b>Sau khi tải xuống, bạn hãy mở app và đăng nhập vào tài khoản W388 của
+                                mình.</li>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-2 p-2 text-xl "><b>Đối với Android</b></h2>
+                    <div class=" flex justify-center items-center flex-col">
+                        <div class="dist mt-4 *:p-2">
+                            <li><b>Bước 1: </b>Truy cập <b>W388 link mới</b> nhất và nhấp vào nút “Tải về”.</li>
+                            <li><b>Bước 2: </b>Chọn phiên bản Android của ứng dụng.
+                            </li>
+                            <li><b>Bước 3: </b>Bật tùy chọn “Nguồn không xác định” hiện trong cài đặt bảo mật của máy
+                                của bạn.</li>
+                            <li><b>Bước 4: </b>Cài đặt tệp APK đã tải xuống và mở ứng dụng.</li>
+                            <li><b>Bước 5: </b>Đăng nhập W388 và bắt đầu chơi.</li>
+                        </div>
+                    </div>
+                    <p class="mt-4 ">Với những bước trên, bạn đã hoàn tất quá trình tải và cài đặt W388 trên thiết bị
+                        của mình. Giờ đây, bạn có thể thoải mái tận hưởng những trò chơi cá cược hấp dẫn và kiếm tiền
+                        ngay hôm nay.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>Tổng hợp chương trình khuyến mãi tại W388</b></h2>
+                    <p class="mt-4 font-normal">Là một trong những nhà cái hàng đầu trên thị trường, W388 luôn dành tặng
+                        những
+                        ưu đãi hấp dẫn cho người chơi của mình. Dưới đây là tổng hợp chi tiết các chương trình
+                        khuyến mãi hiện đang được W388 triển khai tại nhà cái.</p>
+                    <p class="mt-3  font-normal ">Khuyến mãi chào mừng: Tặng thưởng 100% giá trị nạp tiền lên đến
+                        1.500.000 VND cho thành viên mới.</p>
+                    <p class="mt-3 font-normal ">Khuyến mãi nạp lại: Tặng thưởng 20% giá trị nạp tiền lên đến 500.000
+                        VND mỗi ngày áp dụng cho tất cả các thành viên.</p>
+                    <p class="mt-3  font-normal">Khuyến mãi hoàn trả: Hoàn trả tiền cược thua lên đến 1,5% mỗi ngày
+                        không yêu cầu doanh thu cược.</p>
+                    <p class="mt-3  font-normal">Khuyến mãi sinh nhật: Tặng thưởng tiền mặt lên đến 1.000.000 VND vào
+                        ngày sinh nhật của thành viên.</p>
+                    <p class="mt-3  font-normal">Khuyến mãi giới thiệu bạn bè: Tặng thưởng lên đến 200.000 VND cho mỗi
+                        người được bạn giới thiệu thành công. Bạn bè được bạn giới thiệu phải nạp tiền và bắt đầu cược
+                        ít nhất một lần. </p>
+                    <p class="mt-3  font-normal">Khuyến mãi đặc biệt: W388 thường xuyên triển khai các chương trình
+                        khuyến mãi đặc biệt vào các dịp lễ, tết hoặc sự kiện thể thao lớn. Các chương trình khuyến mãi
+                        đặc biệt có thể bao gồm tặng thưởng tiền mặt, vòng quay may mắn, giải thưởng hiện vật, v.v.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>Những câu hỏi thường gặp</b></h2>
+                    <p class="mt-4 font-normal">Nắm bắt nhu cầu tìm hiểu thông tin chi tiết về nhà cái W388 của người
+                        chơi, chúng tôi đã tổng hợp những câu hỏi thường gặp cùng câu trả lời đầy đủ và chính xác.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>W388 có uy tín không? W388 có lừa đảo không?</b></h2>
+                    <p class="mt-4 font-normal">W388 được cấp phép và quản lý bởi chính phủ Curacao, một trong những cơ
+                        quan quản lý cờ bạc trực tuyến uy tín nhất trên thế giới. Nhà cái này cũng sử dụng hệ thống bảo
+                        mật tiên tiến đảm bảo tính công bằng và minh bạch.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>W388 hỗ trợ những ngôn ngữ nào?</b></h2>
+                    <p class="mt-4 font-normal">Chúng tôi hỗ trợ người chơi đa dạng ngôn ngữ, bao gồm tiếng Anh, tiếng
+                        Trung, tiếng Thái, tiếng Việt và tiếng Indonesia. Bạn có thể dễ dàng thay đổi ngôn ngữ để phù
+                        hợp với sở thích của mình.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>Liên hệ với bộ phận hỗ trợ CSKH W388 như thế nào?</b>
+                    </h2>
+                    <p class="mt-4 font-normal">W388 cung cấp nhiều kênh hỗ trợ khách hàng như: chat live, email và điện
+                        thoại. Bộ phận hỗ trợ luôn sẵn sàng hỗ trợ bạn với bất kỳ câu hỏi hoặc vấn đề mà bạn gặp phải.
+                    </p>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>Có giới hạn đặt cược tối thiểu và tối đa không?</b></h2>
+                    <p class="mt-4 font-normal">Có, W388 đặt ra giới hạn đặt cược tối thiểu và tối đa tùy thuộc vào sảnh
+                        chơi. Người chơi nên kiểm tra các quy tắc cụ thể của trò chơi mà họ muốn tham gia để biết thêm
+                        thông tin.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>Những câu hỏi thường gặp</b></h2>
+                    <p class="mt-4 font-normal">Nắm bắt nhu cầu tìm hiểu thông tin chi tiết về nhà cái W388 của người
+                        chơi, chúng tôi đã tổng hợp những câu hỏi thường gặp cùng câu trả lời đầy đủ và chính xác.</p>
+                    <div class="justify-center flex flex-col items-center mt-4">
+                        <figure><img class="w-full" src="./images/sanh-choi-w388-da-dang-1.jpg">
+                            <figcaption class="wp-caption-text justify-center flex item"><i>Nhà cái uy tín số 1 hiện
+                                    nay</i>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>Tôi có thể chơi W388 trên thiết bị di động không?</b>
+                    </h2>
+                    <p class="mt-4 font-normal">Có, nhà cái cung cấp ứng dụng di động với cả thiết bị iOS và Android.
+                        Ứng dụng này cung cấp quyền truy cập vào tất cả các trò chơi và tính năng có sẵn trên trang web
+                        máy tính.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-3xl"><b>Chính sách đại lý W388 như thế nào?</b></h2>
+                    <p class="mt-4 font-normal">Để mở rộng mạng lưới hoạt động, nhà cái đã triển khai một chính sách đại
+                        lý hấp dẫn, mang lại nhiều lợi ích cho các đối tác. Chính sách đại lý W388 bao gồm các điều
+                        khoản sau:</p>
+                    <div class="dist mt-4 *:p-2">
+                        <li><b>Hoa hồng hấp dẫn: </b>Đại lý sẽ nhận được hoa hồng dựa trên doanh thu do người chơi giới
+                            thiệu tạo ra.</li>
+                        <li><b>Hỗ trợ tiếp thị: </b>W388 cung cấp cho đại lý nhiều công cụ tiếp thị như banner, đường
+                            dẫn liên kết và các vật liệu quảng cáo khác để hỗ trợ việc quảng bá nhà cái.
+                        </li>
+                        <li><b>Hệ thống quản lý đại lý chuyên nghiệp: </b>Đại lý sẽ có quyền truy cập vào hệ thống quản
+                            lý đại lý trực tuyến, giúp theo dõi hiệu suất, quản lý người chơi và nhận các bản cập nhật
+                            mới nhất từ nhà cái.</li>
+                        <li><b>Đào tạo và hỗ trợ chuyên nghiệp: </b>W388 cung cấp các chương trình đào tạo và hỗ trợ
+                            chuyên nghiệp cho đại lý, giúp đại lý nắm rõ các quy định của nhà cái và cung cấp dịch vụ
+                            khách hàng tốt nhất. </li>
+                        <li><b>Các chương trình ưu đãi độc quyền: </b>Đại lý có thể tận dụng các chương trình ưu đãi độc
+                            quyền chỉ dành riêng cho đại lý, chẳng hạn như phần thưởng giới thiệu, tiền thưởng doanh thu
+                            và các chương trình khuyến mãi đặc biệt. </li>
+                    </div>
+                    <p class="mt-4 font-normal">Với chính sách đại lý hấp dẫn này, nhà cái W388 mong muốn thu hút các
+                        đối tác uy tín, cùng hợp tác phát triển và mở rộng mạng lưới cá cược trực tuyến. Nếu bạn quan
+                        tâm đến việc trở thành đại lý, hãy vào link đăng nhập chính thức của nhà cái để biết thêm thông
+                        tin và đăng ký.</p>
+                    <h2 class="mt-2 p-2 text-xl md:text-2xl"><b>Tổng kết</b></h2>
+                    <p class="mt-4 mb-20 font-normal">Trên đây là toàn bộ thông tin về nhà cái W388. Nếu bạn là người
+                        chơi mới, đừng ngần ngại mà hãy tham gia trải nghiệm ngay hôm nay, chắc chắn đây sẽ là điểm đến
+                        hoàn hảo dành cho bạn.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-900 mt-10">
+        <div class="max-w-screen-xl px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24">
+            <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+                <div>
+                    <div class="flex justify-center text-teal-300 sm:justify-start">
+                        <img src="./images//logo.png" alt="">
+                    </div>
+
+                    <p
+                        class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-400 sm:max-w-xs sm:mx-0 sm:text-left">
+                        W388 - Nhà cái hoạt động gần 10 năm trên thị trường với sự cấp phép của Philipines. Sân chơi
+                        được chứng nhận GEOTRUST, cam kết xanh chín với hội viên
+                    </p>
+                    <img src="./images//_dmca_premi_badge_4.png" alt="" class="ml-10 mt-4">
+                </div>
+
+                <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4">
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">HƯỚNG DẪN</p>
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./dang-key.html">
+                                        Đăng ký
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Đăng-nhập.html">
+                                        Đăng nhập
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Nạp-tiền.html">
+                                        Nạp tiền
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Rút-tiền.html">
+                                        Rút tiền
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Khuyến-mãi.html">
+                                        Khuyến mãi
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">LIÊN HỆ</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./ve-chung-toi.html">
+                                        Về chúng tôi
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./lien-he.html">
+                                        Liên hệ
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./binh-ming-ceo-manager.html">
+                                        CEO Bình Minh
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./chinh-sach-bao-mat.html">
+                                        Chính sách bảo mật
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./dieu-khoan-va-dieu-kien.html">
+                                        Điều khoản và điều kiện
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75"
+                                        href="./mien-trach-nhiem.html">
+                                        Miễn trách nhiệm
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg font-medium text-center text-white">KIẾN THỨC</p>
+
+                        <nav class="mt-8">
+                            <ul class="space-y-4 text-sm *:border-b *:p-2">
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./live-casino.html">
+                                        Live casino
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./game-ba.html">
+                                        Game bài
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ban-ca.html">
+                                        Bắn cá
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./ga-da.html">
+                                        Đá gà
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./the-thao.html">
+                                        Thể thao
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white transition hover:text-white/75" href="./Xo-So.html">
+                                        Xổ số
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class=" sm:text-left">
+                        <p class="text-lg text-center font-medium text-white">THÔNG TIN LIÊN LẠC</p>
+
+                        <ul class="mt-8 space-y-4 text-sm *:p-1">
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Website: w388.dog
+                                </span>
+
+                            </li>
+
+                            <li class="flex items-center justify-center sm:justify-start gap-1.5 group">
+
+
+                                <span class="text-white transition group-hover:text-white/75">
+                                    Địa chỉ: Đ.TH67, Binh Hoà, An Hòa, Bình Dương, Việt Nam
+                                </span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="p-4 ">
+                <img src="./images//logo-okvip-1400x495.png" alt="" class="w-[170px]">
+            </div>
+            <div class="pt-6 mt-12 border-t border-gray-800">
+                <div class="text-center sm:flex sm:justify-between sm:text-left">
+                    <p class="text-sm text-gray-400">
+                        <span class="block sm:inline">Copyright 2024 © Flatsome Theme</span>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a id="button"></a>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
